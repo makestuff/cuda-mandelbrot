@@ -6,3 +6,7 @@ block. The algorithm generates 256 different colour values which are rendered in
 SDL. It uses single-precision IEEE floats, so artifacts appear at extreme zoom
 levels. It runs at about 50fps on my CUDA card, which is an old GeForce 9600 GT.
 It's about a factor of ten faster than the equivalent CPU implementation.
+
+Here's a video showing roughly what it looks like when it's running:
+
+https://vimeo.com/55220974
