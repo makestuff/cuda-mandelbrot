@@ -1,0 +1,8 @@
+------------------------ CUDA MANDELBROT REALTIME ZOOM -------------------------
+
+A simple Mandelbrot renderer built with CUDA. It splits the screen up into a
+load of tiles 32 pixels by 16 pixels and hands each tile off to a CUDA thread
+block. The algorithm generates 256 different colour values which are rendered in
+SDL. It uses single-precision IEEE floats, so artifacts appear at extreme zoom
+levels. It runs at about 50fps on my CUDA card, which is an old GeForce 9600 GT.
+It's about a factor of ten faster than the equivalent CPU implementation.
