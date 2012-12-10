@@ -129,6 +129,7 @@ void benchmarkRender(SDL_Surface *hello, SDL_Surface *screen) {
 		printf("fps[%04d] = %f\n", i, fps[i]);
 	}
 	printf("min fps = %f\n", fpsMin);
+	printf("final frame size = %f\n", size);
 }
 
 //int main(int argc, const char *args[]) {
